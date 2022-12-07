@@ -1,4 +1,3 @@
-import numpy as np
 
 file =  open("food.txt","r")
 food = []
@@ -16,11 +15,15 @@ while file:
 file.close()
 
 maxFood = 0
-elf = 0
-print(food)
+elf = [] 
 for x in range(0,len(food)):
     currentFood = sum(food[x])
-    if currentFood > maxFood:
-        maxFood = currentFood
-        elf = x
-print("Elf "+ str(elf + 1) + " has more food: " + str(maxFood))
+    if len(elf) <= 2 :
+        elf.append(currentFood)
+    else:
+        elf.sort(reverse=True)
+        if elf[-1] < currentFood:
+            elf.pop(-1)
+            elf.append(currentFood)
+
+print(str(sum(elf)))
