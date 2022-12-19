@@ -1,7 +1,8 @@
 # Advent of Code Challanges
 
-This is my attempts at Advent Of Code puzzles and challenges. The popular website which brings us food for thought for improving programming skills.
-You can find the information here:
+This is my attempts at Advent Of Code puzzles and challenges.
+
+More info here:
 [https://adventofcode.com/]
 
 The repository contains my solutions to the puzzles.
