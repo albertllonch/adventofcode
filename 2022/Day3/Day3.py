@@ -25,3 +25,29 @@ for line in file:
 
 print(sumPrio)
 file.close()
+
+
+#part 2
+
+def commonElement(arr):
+    result = set(arr[0])
+    for currSet in arr[1:]:
+        result.intersection_update(currSet)
+    return result - {'\n'}
+
+
+file = open("input.txt","r")
+sumPrio = 0
+for count, line in enumerate(file):
+    pass
+totalLines = count + 1
+file.seek(0)
+for x in range(0,totalLines,3):
+    arr3 = []
+    arr3.append(file.readline())
+    arr3.append(file.readline())
+    arr3.append(file.readline())
+    comm = commonElement(arr3).pop()
+    sumPrio = sumPrio + points[comm]
+print(sumPrio)
+file.close()
