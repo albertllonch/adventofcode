@@ -1,12 +1,13 @@
 # Advent of Code Challanges
 
-This is my attempts at Advent Of Code puzzles and challenges.
+This is my attempts at Advent Of Code puzzles and challenges. The repository contains in folders the years, and in subfolders the days for each challange.
 
-More info here:
+More info about AOC and what it is can be found here:
 [https://adventofcode.com/]
 
-The repository contains my solutions to the puzzles.
+My goal is each year approach AOC in a different language.
+- 2022: Python
+- 2023: C#
 
-Starting on year 2022, my goal is to improve my python and will do all the challenges with this language. I appreciate feedback to improve it :)
 
 
