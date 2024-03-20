@@ -7,7 +7,6 @@ More info about AOC and what it is can be found here:
 
 My goal is each year approach AOC in a different language.
 - 2022: Python
-- 2023: C#
 
 
 
